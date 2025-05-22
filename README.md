@@ -32,9 +32,11 @@ The dataset is used to classify customers based on their likelihood of accepting
 
 
 ## Results
-The models are evaluated on two preprocessed versions of the dataset. 
-Metrics like F1 score and ROC AUC are compared to select the best-performing model for predicting customer response.
+- The models are evaluated on two preprocessed versions of the dataset.
+  - Version 1: Removes outliers from a comprehensive list of columns with potential outliers.
+  - Version 2: Removes outliers only from Year_Birth and Income.
+- Metrics like F1 score and ROC AUC are compared to select the best-performing model for predicting customer response.
 
 ## Notes  
-This repository was created as part of a group project for a university Business Intelligence course.
-The goal is to analyze customer data and predict the likelihood of a customer responding positively to a marketing campaign.
+- The goal is to analyze customer data and predict the likelihood of a customer responding positively to a marketing campaign.
+- This repository was created as part of a group project for a university Business Intelligence course.
